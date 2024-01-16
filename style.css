@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 44px;
+    background: #444;
+}
+.nav__collection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    color: #ddd;
+    list-style: none;
+}
+.nav__item span{
+    font-size: 12px;
+}
+.nav__item span:hover{
+    color: dodgerblue;
+    cursor: pointer;
+}
+.banner{
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    padding-top: 50px;
+}
+.banner h1{
+    font-size: 50px;
+}
+.banner p{
+    font-size: 24px;
+    padding: 10px 0;
+}
+.banner a{
+    font-size: 18px;
+    color: dodgerblue;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+}
+.banner a span{
+    font-size: 16px;
+}
+.apple__gift{
+    background: url("./images/holiday_2023_still_time_hero__7p1yuabgfz6m_large_2x.jpg") no-repeat center/cover;
+    padding-top: 450px;
+}
+.apple__watch{
+    background: url("./images/hero_apple_watch_series_9__x5wo4ptz2giu_large_2x.jpg") no-repeat center/cover;
+    padding-top: 500px;
+    color: #fff;
+}
+.btn1{
+    width: 130px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    transform: translate(-40px);
+}
+.btn2{
+    width: 60px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    transform: translate(-20px);
+}
+.apple__iPhone{
+    background: url("./images/hero_iphone15pro__i70z9oz3hj2i_large_2x.jpg") no-repeat center/cover;
+    color: #fff;
+}
+.wrapper{
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrapper1{
+    width: 50%;
+    height: 500px;
+    transition: 2s;
+    overflow: hidden;
+}
+.wrapper1:hover{
+    transform: scale(1.03); 
+}
+.wrapper1 img{
+    width: 800px;
+    height: 300px;
+    transform: translate(-100px);
+}
+.wrapper1 h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 15px;
+}
+.wrapper1 p{
+    text-align: center;
+    font-size: 24px;
+    padding: 10px 0;
+}
+.wrapper1 a{
+    font-size: 18px;
+    color: dodgerblue;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+    margin: 0 100px;
+}
+.wrapper1 a span{
+    font-size: 16px;
+}
+.wrapper1 h3{
+    color: orange;
+    text-align: center;
+}
+.wrapper1 h2{
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    background: black;
+}
+.wrapper1 h4{
+    text-align: center;
+    font-size: 23px;
+    background: black;
+    color: #fff;
+}
+.wrapper1 h4:hover{
+    cursor: pointer;
+}
+.wrapper1 h4 span{
+    color: dodgerblue;
+    font-size: 16px;
+}
+.text{
+    margin-top: 100px;
+}
+.noclass{
+    width: 100%;
+    height: 560px;
+    margin-top: 60px;
+    display: flex;
+    padding: 0 5%;
+    gap: 20px;
+}
+.class1{
+    width: 300px;
+    height: 100%;
+}
+.class1 h5{
+    font-size: 14px;
+    color: grey;
+}
+.class1 h3:hover{
+    color: dodgerblue;
+    cursor: pointer;
+}
+.class1 h5:hover{
+    cursor: pointer;
+}
+.back__burchaklar{
+    width: 100%;
+    height: 400px;
+    background: black;
+    margin-top: 50px;
+}
+.burchaklarrr{
+    width: 100%;
+    height: 600px;
+    border: 1px solid white;
+}
+.burchak{
+    width: 400px;
+    height: 250px;
+    border: 50px solid white;
+    border-radius: 300px 300px 0 0;
+    transform: translate(50px, 50px);
+}
+.burchak2{
+    width: 700px;
+    height: 1-0px;
+    border: 50px solid white;
+    transform: translate(500px, -100px);
+}
+.english__book{
+    width: 100%;
+    height: 700px;
+    background: dodgerblue;
+}
+.book1{
+    width: 500px;
+    height: 500px;
+    background: blue;
+    margin: auto;
+    transform: translateY(150px);
+    position: relative;
+}
+.circle{
+    width: 250px;
+    height: 250px;
+    border: 10px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: -70px;
+    left: 320px;
+    z-index: 10;
+    overflow: hidden;
+}
+.circle img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}  
+.nuqta1{
+    width: 30px;
+    height: 30px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+} 
+.nuqta2{
+    width: 30px;
+    height: 30px;
+    background: gold;
+    border-radius: 50%;
+    position: absolute;
+    left: 40px;
+}
+.nuqta3{
+    width: 30px;
+    height: 30px;
+    background: green;
+    border-radius: 50%;
+    position: absolute;
+    left: 40px;
+}
+.nuqta4{
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 5px;
+    position: absolute;
+    left: 40px;
+}
+.nuqta4 h1{
+    position: absolute;
+    top: -2px;
+    left: 6px;
+}
+.nuqta5{
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 5px;
+    position: absolute;
+    left: 40px;
+}
+.nuqta5 h1{
+    position: absolute;
+    top: -2px;
+    left: 6px;
+}
+.book2{
+    width: 500px;
+    height: 450px;
+    background: rgb(96, 164, 233);
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+}
+.inp1{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    position: relative;
+}
+.inp1 h2{
+    position: absolute;
+    left: 60px;
+}
+.inp1 input{
+    width: 300px;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    left: 100px;
+}
+.inp2{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    position: relative;
+    margin-top: 8px;
+}
+.inp2 h2{
+    position: absolute;
+    left: 25px;
+}
+.inp2 input{
+    width: 300px;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    left: 100px;
+}
+.inp3{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    position: relative;
+    margin-top: 8px;
+}
+.inp3 input{
+    width: 300px;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    left: 100px;
+}
+.book3{
+    width: 470px;
+    height: 330px;
+    background: rgb(146, 183, 220);
+    position: absolute;
+    top: 170px;
+    z-index: 8;
+}
+.book4{
+    width: 420px;
+    height: 330px;
+    background: white;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+}
+.book4 h3{
+    padding: 10px;
+}
